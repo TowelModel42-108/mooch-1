@@ -46,3 +46,76 @@
 .sy-controls a:hover {
   background-color: #5C9F24!important;
 }
+
+body {
+  padding-top: 60px;
+}
+
+.about-mooch h3, h5 {
+  text-align: left;
+}
+
+.about-mooch {
+
+}
+
+.about-column {
+  width: 60%;
+  height: auto;
+  vertical-align: top;
+  border-width: 1px;
+  border-color: #5C9F24!important;
+  border-style: solid;
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.submissions {
+  width: 37%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field {
+  width: 37%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actions {
+  width: 37%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.test-parent {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.testimonial {
+    border: 1px solid #ccc;
+    width: 33%;
+    height: 575px;
+    padding: 15px;
+    vertical-align: top;
+}
+
+div.testimonial:hover {
+    border: 1px solid #777;
+}
+
+div.testimonial img {
+    width: 100%;
+    height: auto;
+}
+
+.testimonial {
+ display: inline-block;
+ margin-left: auto;
+ margin-right: auto;
+}

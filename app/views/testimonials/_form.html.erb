@@ -3,7 +3,7 @@
     <div id="error_explanation">
       <h2><%= pluralize(testimonial.errors.count, "error") %> prohibited this testimonial from being saved:</h2>
 
-      <ul>
+     <ul>
       <% testimonial.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
@@ -11,27 +11,28 @@
     </div>
   <% end %>
 
-  <div class="field">
+ <div class="field">
     <%= form.label :name %>
     <%= form.text_field :name, id: :testimonial_name %>
   </div>
 
-  <div class="field">
+ <div class="field">
     <%= form.label :title %>
     <%= form.text_field :title, id: :testimonial_title %>
   </div>
 
-  <div class="field">
+ <div class="field">
     <%= form.label :comments %>
     <%= form.text_field :comments, id: :testimonial_comments %>
   </div>
 
-  <div class="field">
-    <%= form.label :image %>
-    <%= form.text_field :image, id: :testimonial_image %>
+
+ <div class="field">
+    add an image....
+    <%= form.file_field :image %>
   </div>
 
-  <div class="actions">
+ <div class="actions">
     <%= form.submit %>
   </div>
 <% end %>

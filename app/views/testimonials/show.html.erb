@@ -1,24 +1,22 @@
 <p id="notice"><%= notice %></p>
 
-<p>
+<center>
+<div class="testimonial">
+
   <strong>Name:</strong>
-  <%= @testimonial.name %>
-</p>
+  <%= @testimonial.name %><br>
 
-<p>
   <strong>Title:</strong>
-  <%= @testimonial.title %>
-</p>
+  <%= @testimonial.title %><br>
 
-<p>
+  <%= image_tag(@testimonial.image.medium) %><br>
+
   <strong>Comments:</strong>
-  <%= @testimonial.comments %>
-</p>
+  <%= @testimonial.comments %><br>
 
-<p>
-  <strong>Image:</strong>
-  <%= @testimonial.image %>
-</p>
-
-<%= link_to 'Edit', edit_testimonial_path(@testimonial) %> |
+<center>
+<%= link_to 'Edit', edit_testimonial_path(@testimonial) %>
 <%= link_to 'Back', testimonials_path %>
+</center>
+</div>
+</center>
