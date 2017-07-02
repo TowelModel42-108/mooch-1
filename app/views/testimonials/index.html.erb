@@ -1,33 +1,18 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Testimonials</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Title</th>
-      <th>Comments</th>
-      <th>Image</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @testimonials.each do |testimonial| %>
-      <tr>
-        <td><%= testimonial.name %></td>
-        <td><%= testimonial.title %></td>
-        <td><%= testimonial.comments %></td>
-        <td><%= testimonial.image %></td>
-        <td><%= link_to 'Show', testimonial %></td>
-        <td><%= link_to 'Edit', edit_testimonial_path(testimonial) %></td>
-        <td><%= link_to 'Destroy', testimonial, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Testimonial', new_testimonial_path %>
+<h2>⇣What People Are Saying⇣<%= link_to '  ＋Say Something＋', new_testimonial_path %></h2>
+<div class="test-parent">
+  <% @testimonials.each do |testimonial| %>
+  <div class="testimonial">
+      <strong>Name:</strong> <%= testimonial.name %><br>
+      <strong>Title:</strong> <%= testimonial.title %><br>
+      <%= image_tag(testimonial.image.medium) %><br>
+      <strong>Comments:</strong> <%= testimonial.comments %><br>
+        <center>
+        <%= link_to 'Show', testimonial %>
+        <%= link_to 'Edit', edit_testimonial_url(testimonial) %>
+        <%= link_to 'Destroy', testimonial, method: :delete, data: { confirm: 'Are you sure?' } %>
+      </center>
+      <% end %>
+  </div>
+</div>

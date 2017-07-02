@@ -1,24 +1,19 @@
 <p id="notice"><%= notice %></p>
+<center>
+<div class="gallery">
 
-<p>
-  <strong>Name:</strong>
-  <%= @food.name %>
-</p>
+  <strong>Up for grabs:</strong>
+  <%= @food.name %><br>
 
-<p>
+  <strong>Posted on:</strong>
+  <%= @food.date %><br>
+
   <strong>Description:</strong>
-  <%= @food.description %>
-</p>
+  <%= @food.description %><br>
 
-<p>
-  <strong>Image:</strong><br>
   <%= image_tag(@food.image.medium) %>
-</p>
-
-<p>
-  <strong>Date:</strong>
-  <%= @food.date %>
-</p>
 
 <%= link_to 'Edit', edit_food_path(@food) %> |
 <%= link_to 'Back', foods_path %>
+</div>
+</center>

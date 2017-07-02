@@ -1,3 +1,4 @@
+
 <%= form_for @food, html: { multipart: true } do |f| %>
   <% if @food.errors.any? %>
     <div id="error_explanation">
@@ -13,27 +14,27 @@
 
 
  <div class="field">
-    <%= f.label :name %><br>
+    <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
 
+  <div class="field">
+     <%= f.label :date %>
+     <%= f.text_field :date %><br>
+  </div>
+
  <div class="field">
-    <%= f.label :description %><br>
+    <%= f.label :description %>
     <%= f.text_area :description %>
   </div>
 
  <div class="field">
-  add an image....
+  <strong>Add an image</strong>
   <%= f.file_field :image %>
   </div>
 
- <div class="field">
-    <%= f.label :date %>
-    <%= f.text_field :date %><br>
-  </div>
-
  <div class="actions">
-    <%= f.submit %>
+    <center><%= f.submit %></center>
   </div>
 
 <% end %>

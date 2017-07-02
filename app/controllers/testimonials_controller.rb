@@ -5,6 +5,7 @@ class TestimonialsController < ApplicationController
   # GET /testimonials.json
   def index
     @testimonials = Testimonial.all
+    @testimonial = Testimonial.new
   end
 
   # GET /testimonials/1
