@@ -355,7 +355,7 @@
   text-align: center;
   text-indent: 0;
   line-height: 2.8em;
-  color: #111;
+  color: #5C9F24;
   font-weight: 800;
   position: absolute;
   background-color: #fff;
@@ -463,11 +463,11 @@
 /* line 282, ../src/slippry.scss */
 .sy-pager li.sy-active a {
   background-color: #e24b70;
-  
+
 }
 .sy-pager li.sy-active a:focus {
 	outline: 0;
-  
+
 }
 /* line 286, ../src/slippry.scss */
 .sy-pager li a {
