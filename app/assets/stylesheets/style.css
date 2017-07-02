@@ -206,6 +206,7 @@ header{
 #navigation .navbar {
 	padding:0;
 	margin:0;
+  background-color: #5C9F24!important;
 
 }
 
@@ -278,7 +279,7 @@ header{
 
 
 .default {
-	background:#010101;
+	background:#5C9F24;
 	border-bottom:1px solid transparent;
 	opacity: 0.8;
 }
@@ -287,7 +288,7 @@ header{
 
 .fixed {
 	position: fixed;
-	background:#2a2a2a;
+	background:#5C9F24;
 	border:none;
 	top:0;
 	left: 0;
@@ -341,166 +342,6 @@ font-size: 48px;
 	padding:30px 0 40px 0;
 }
 
-
-/* =======================================
-3. Section: About
-======================================== */
-.team-box {
-	background: #f5f5f5;
-	padding-bottom: 20px;
-}
-
-.roles {
-	padding-top: 10px;
-	text-align:center;
-}
-
-ul.social-profile {
-	list-style:none;
-	margin-left:0;
-	padding: 0;
-}
-
-ul.social-profile li {
-	display:inline;
-	margin: 0 5px;
-	padding: 0;
-}
-
-ul.social-profile li a:hover {
-	text-decoration:none;
-}
-
-
-/* =======================================
-3. Section: Services
-======================================== */
-
-.box {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background: #fefefe;
-  border: 1px solid #e3e3e3;
-  -webkit-border-radius: 2px;
-     -moz-border-radius: 2px;
-          border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-
-
-.box .halftop {
-	text-align:center;
-	border-bottom:1px dotted #e9e9e9;
-	padding-bottom:10px;
-	margin-bottom:20px;
-}
-.box i {
-	margin:0;
-
-	text-align:center;
-	color:#333;
-}
-
-
-/* ==== divider ==== */
-.solid_line {
-  padding:0;
-  margin:20px 0 20px 0;
-  width:100%;
-  height:1px;
-  border-top: 1px solid #eeeeee;
-}
-
-.dotted_line {
-  padding:0;
-  margin:20px 0 20px 0;
-  width:100%;
-  height:1px;
-  border-bottom: 1px dotted #eeeeee;
-}
-
-
-
-/* scroll to top */
-.scrollup{
-    position:fixed;
-	width:48px;
-	height:48px;
-    bottom:40px;
-    right:20px;
-	text-align: center;
-}
-
-.scrollup i{
-	margin-top: 7px;
-	color: #fff;
-}
-
-a.scrollup {
-	outline:0;
-}
-
-a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
-	opacity:1;
-	text-decoration:none;
-}
-a.scrollup i:hover {
-	text-decoration:none;
-}
-
-
-
-/* progress bar */
-
-.bar.bar80 {
-	width:80%;
-}
-.bar.bar70 {
-	width:70%;
-}
-.bar.bar65 {
-	width:65%;
-}
-.bar.bar60 {
-	width:60%;
-}
-.bar.bar55 {
-	width:55%;
-}
-.bar.bar50 {
-	width:50%;
-}
-.bar.bar45 {
-	width:45%;
-}
-.bar.bar40 {
-	width:40%;
-}
-.bar.bar40 {
-	width:40%;
-}
-.bar.bar35 {
-	width:35%;
-}
-.bar.bar30 {
-	width:30%;
-}
-.bar.bar25 {
-	width:25%;
-}
-.bar.bar20 {
-	width:20%;
-}
-.bar.bar15 {
-	width:15%;
-}
-.bar.bar10 {
-	width:10%;
-}
 
 /* ============ font awesome icons ===================== */
 
@@ -1116,7 +957,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 	.default {
 	position: fixed;
-	background:#2a2a2a;
+	background:##5C9F24;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -1137,7 +978,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 	.fixed {
 	position: fixed;
-	background:#2a2a2a;
+	background:##5C9F24;
 	top:0;
 	left: 0;
 	width: 100%;
