@@ -4,7 +4,7 @@
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com
 */
- 
+
 
 /* ==== Google font ==== */
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
@@ -29,8 +29,8 @@
 }
 
 body {
-    text-rendering: optimizeLegibility; 
-    -webkit-font-smoothing: antialiased; 
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 	color:#777;
 	background: #fff;
 	font-size: 16px;
@@ -117,7 +117,7 @@ iframe, embed, object {
 .map-container embed,
 .embed-container object,
 .embed-container embed,
-.video-container object,  
+.video-container object,
 .video-container embed 					{ position:absolute; top:0; left:0; width:100%; height:100%; }
 
 
@@ -166,7 +166,7 @@ blockquote {
 	display:inline;
 }
 
-section.dark .heading h3 {	
+section.dark .heading h3 {
 	color: #fff;
 }
 
@@ -177,7 +177,7 @@ section.dark .heading h3 {
 	margin:20px 0 20px 0;
 }
 
-.sub-heading p {	
+.sub-heading p {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	line-height:1.6em;
@@ -185,7 +185,7 @@ section.dark .heading h3 {
 	font-weight:300;
 }
 
-section.dark .sub-heading p {	
+section.dark .sub-heading p {
 	color: #e9e9e9;
 }
 
@@ -206,13 +206,14 @@ header{
 #navigation .navbar {
 	padding:0;
 	margin:0;
-	
+  background-color: #5C9F24!important;
+
 }
 
 .navbar.navbar-inverse {
 	padding:10px 0;
 	margin:0;
-	
+
 }
 .navbar-brand {
   float: left;
@@ -259,10 +260,10 @@ header{
     color: #fff;
     -webkit-box-shadow: 0 none;
     box-shadow: 0 none;
-    -webkit-transition: all 0.3s; 
-    -moz-transition: all 0.3s; 
-    -o-transition: all 0.3s; 
-    transition: all 0.3s; 
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .navbar .nav > li > a:hover,
@@ -278,7 +279,7 @@ header{
 
 
 .default {
-	background:#010101;
+	background:#5C9F24;
 	border-bottom:1px solid transparent;
 	opacity: 0.8;
 }
@@ -287,7 +288,7 @@ header{
 
 .fixed {
 	position: fixed;
-	background:#2a2a2a;
+	background:#5C9F24;
 	border:none;
 	top:0;
 	left: 0;
@@ -342,166 +343,6 @@ font-size: 48px;
 }
 
 
-/* =======================================
-3. Section: About
-======================================== */
-.team-box {
-	background: #f5f5f5;
-	padding-bottom: 20px;
-}
-
-.roles {
-	padding-top: 10px;
-	text-align:center;
-}
-
-ul.social-profile {
-	list-style:none;
-	margin-left:0;
-	padding: 0;
-}
-
-ul.social-profile li {
-	display:inline;
-	margin: 0 5px;
-	padding: 0;
-}
-
-ul.social-profile li a:hover {
-	text-decoration:none;
-}
-
-
-/* =======================================
-3. Section: Services
-======================================== */
-
-.box {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background: #fefefe;
-  border: 1px solid #e3e3e3;
-  -webkit-border-radius: 2px;
-     -moz-border-radius: 2px;
-          border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-
-
-.box .halftop {
-	text-align:center;
-	border-bottom:1px dotted #e9e9e9;
-	padding-bottom:10px;
-	margin-bottom:20px;
-}
-.box i {
-	margin:0;
-	
-	text-align:center;
-	color:#333;
-}
-
-
-/* ==== divider ==== */
-.solid_line {
-  padding:0;
-  margin:20px 0 20px 0;
-  width:100%;
-  height:1px;
-  border-top: 1px solid #eeeeee;
-}
-
-.dotted_line {
-  padding:0;
-  margin:20px 0 20px 0;
-  width:100%;
-  height:1px;
-  border-bottom: 1px dotted #eeeeee;
-}
-
-
-
-/* scroll to top */
-.scrollup{
-    position:fixed;
-	width:48px;
-	height:48px;
-    bottom:40px;
-    right:20px;
-	text-align: center;
-}
-
-.scrollup i{
-	margin-top: 7px;
-	color: #fff;
-}
-
-a.scrollup {
-	outline:0;
-}
-
-a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
-	opacity:1;
-	text-decoration:none;
-}
-a.scrollup i:hover {
-	text-decoration:none;
-}
-
-
-
-/* progress bar */
-
-.bar.bar80 {
-	width:80%;
-}
-.bar.bar70 {
-	width:70%;
-}
-.bar.bar65 {
-	width:65%;
-}
-.bar.bar60 {
-	width:60%;
-}
-.bar.bar55 {
-	width:55%;
-}
-.bar.bar50 {
-	width:50%;
-}
-.bar.bar45 {
-	width:45%;
-}
-.bar.bar40 {
-	width:40%;
-}
-.bar.bar40 {
-	width:40%;
-}
-.bar.bar35 {
-	width:35%;
-}
-.bar.bar30 {
-	width:30%;
-}
-.bar.bar25 {
-	width:25%;
-}
-.bar.bar20 {
-	width:20%;
-}
-.bar.bar15 {
-	width:15%;
-}
-.bar.bar10 {
-	width:10%;
-}
-
 /* ============ font awesome icons ===================== */
 
 ul.the-icons {
@@ -512,7 +353,7 @@ ul.the-icons {
 [class^="icon-"],
 [class*=" icon-"] {
     float:none;
-	
+
 }
 
 .icon-square,
@@ -608,7 +449,7 @@ ul.the-icons {
 }
 [class^="icon-"].active:hover,
 [class*=" icon-"].active:hover {
-    background-color: rgba(0, 0, 0, 0.75);	
+    background-color: rgba(0, 0, 0, 0.75);
 }
 [class^="icon-"],
 [class*=" icon-"] {
@@ -736,7 +577,7 @@ ul.the-icons {
     background-color:#fff;
     -webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
-	transition: all 0.3s;    
+	transition: all 0.3s;
 }
 
 /* Appearing effect */
@@ -762,7 +603,7 @@ ul.the-icons {
 }
 
 .grid li img:hover {
-    opacity:0.2    
+    opacity:0.2
 }
 
 
@@ -985,7 +826,7 @@ ul.social-network li {
 .social-network a.icoLinkedin:hover {
 	background-color:#007bb7;
 }
-.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, 
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
 	color:#fff;
 }
@@ -1088,11 +929,11 @@ a.socialIcon:hover, .socialHoverClass {
   	border-top: 1px solid #eee;
 }
 
-/* Align center */	
+/* Align center */
 .aligncenter{
 	margin:0 auto;
 	text-align:center;
-}	
+}
 
 .aligncenter i {
 	text-align:center;
@@ -1116,7 +957,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 	.default {
 	position: fixed;
-	background:#2a2a2a;
+	background:##5C9F24;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -1137,7 +978,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 	.fixed {
 	position: fixed;
-	background:#2a2a2a;
+	background:##5C9F24;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -1160,12 +1001,12 @@ a.socialIcon:hover, .socialHoverClass {
 		color: #fff;
 		top: 30%;
 		line-height: 1.1em;
-	}	
+	}
 	.team-box {
 		margin-bottom:20px;
 	}
 
-	
+
 }
 
 

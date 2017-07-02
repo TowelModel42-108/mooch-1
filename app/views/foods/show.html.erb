@@ -11,13 +11,13 @@
 </p>
 
 <p>
-  <strong>Date:</strong>
-  <%= @food.date %>
+  <strong>Image:</strong><br>
+  <%= image_tag(@food.image.medium) %>
 </p>
 
 <p>
-  <strong>Image:</strong>
-  <%= @food.image %>
+  <strong>Date:</strong>
+  <%= @food.date %>
 </p>
 
 <%= link_to 'Edit', edit_food_path(@food) %> |
