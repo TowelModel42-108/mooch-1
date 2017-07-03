@@ -29,7 +29,7 @@
         <%= link_to 'Show', food %>
         <%= link_to 'Edit', edit_food_path(food) %>
         <%= link_to 'Delete', food, method: :delete, data: { confirm: 'Are you sure?' } %><br>
-        <input id="clickMe" type="button" value="I ate this!" onClick="doOnClick();" />
+        <input class="click-me-buttons" id="food-<%= food.id %>" type="button" value="I ate this!" />
       </center>
     </div>
   </div>

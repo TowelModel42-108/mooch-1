@@ -1,13 +1,41 @@
 // Place all the styles related to the Contacts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://  sass-lang.com/
-
-#contact-table{
+.contacts-body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  width: 50%;
 }
 
-img {
-  height: 30%;
-  width: auto;
+.image-cropper {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.image-cropper img {
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#octocat {
+  padding: 15px
+}
+
+.contact {
+  display: inline-block;
+  margin: 50px;
+}
+
+.contact-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
 }

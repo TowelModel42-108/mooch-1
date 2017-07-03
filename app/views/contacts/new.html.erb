@@ -1,39 +1,50 @@
-<div align="center">
-  <h3>Contact Our Team!</h3>
+<h1>Find Mooch on Github</h1>
 
-<div id="contact-table">
-    <table>
-        <th><h2>Github</h2></th>
-        <th><h2>Cece Claridge</h2></th>
-      <tr>
-        <td><img src="https://image.flaticon.com/icons/png/512/25/25231.png"><br><br>Help Mooch, feed it some leftover code.<br><a href="https://github.com/cececlar/mooch">Githuh Repo</a></td>
-        <td><img src="https://avatars0.githubusercontent.com/u/27143057?v=3&s=460"><br><br>School Teacher and Programmer<br><a href="https://github.com/cececlar">https://github.com/cececlar</a></td>
-      </tr>
-        <th><h2>Cristina Rosario</h2></th>
-        <th><h2>Livio Zanardo</h2></th>
-      <tr>
-        <td><img src="https://avatars1.githubusercontent.com/u/19956454?v=3&s=460"><br><br>Front End Programmer<br><a href="https://github.com/cristivania">https://github.com/cristivania</a><br></td>
-        <td><img src="https://avatars0.githubusercontent.com/u/22479605?v=3&s=460"><br><br>Pro at grammar and Meme Connoisseur<br><a href="http://github.com/TowelModel42-108">https://github.com/TowelModel42-108</a></td>
-      </tr>
-    </table>
+<div class="contacts-body">
+
+<div class="contact">
+  <span class="image-cropper" id="octocat">
+    <a href="http://github.com/cececlar/mooch"><img src="https://s-media-cache-ak0.pinimg.com/736x/11/8e/6f/118e6f39fac9344d6589c84d5ee9e667--github-logo-computer-science.jpg" alt="mooch github" /></a>
+  </span>
+    <h4>Mooch Repo</h4><br>
+  </div>
+
+  <div class="contact">
+    <span class="image-cropper">
+      <a href="https://github.com/cristivania"><img src="https://files.slack.com/files-tmb/T055GEHEJ-F645ESNA2-9a79cde9ad/img_2512_1024.jpg" alt="cristina rosario" /></a>
+    </span>
+      <h4>Cristina Rosario</h4><br>
+    </div>
+
+  <div class="contact">
+  <span class="image-cropper">
+    <a href="http://github.com/cececlar"><img src="https://avatars0.githubusercontent.com/u/27143057?v=3&s=460" alt="cece claridge" /></a>
+  </span>
+    <h4>Cece Claridge</h4><br>
+  </div>
+
+
+<div class="contact">
+  <span class="image-cropper">
+  <a href="http://github.com/TowelModel42-108"><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAz3AAAAJDllZTZiYzkxLWFkNzgtNDdjMi1iMWUzLTk2NDhiOTY3OTkzNA.jpg" alt="livio zanardo" /></a>
+</span>
+  <h4>Livio Zanardo</h4><br>
+</div>
 </div>
 <br>
-<br>
-<br>
-<br>
 
-<h3> Contact Us Here</h3>
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+<h3>Drop Mooch a Line</h3>
+
+<div class="contact-form">
+  <%= simple_form_for @contact, :html => {:class => 'form-group' } do |f| %>
     <%= f.input :name, :required => true %>
     <%= f.input :email, :required => true %>
     <%= f.input :message, :as => :text, :required => true %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-    </div>
     <div>
       </br>
       <!-- This button needs to match the theme, but it is in Ruby code???? -->
       <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
     </div>
   <% end %>
+</div>
 </div>

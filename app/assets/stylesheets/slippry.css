@@ -502,8 +502,8 @@
 }
 /* line 306, ../src/slippry.scss */
 .sy-filler.ready {
-  -webkit-transition: padding 600ms ease;
-  -moz-transition: padding 600ms ease;
-  -o-transition: padding 600ms ease;
-  transition: padding 600ms ease;
+  -webkit-transition: padding 50ms ease;
+  -moz-transition: padding 50ms ease;
+  -o-transition: padding 50ms ease;
+  transition: padding 50ms ease;
 }

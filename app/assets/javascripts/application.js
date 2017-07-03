@@ -12,7 +12,10 @@
 //
 //= require rails-ujs
 //= require turbolinks
+
+//= require jquery
 //= require_tree .
+
 
 function myFunction() {
     var x = document.getElementById('what-is-mooch');
@@ -41,6 +44,9 @@ function myFunction3() {
     }
 }
 
-function doOnClick(){
-  document.getElementById('clickMe').value = 'Food is Gone!';
-};
+$(document).ready(function() {
+
+ $('.click-me-buttons').on('click', function(){
+    $(this).val('Done');
+  });
+});
