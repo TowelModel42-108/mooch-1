@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 <center>
-<div class="gallery">
+<div class="gallery show">
 
   <strong>Up for grabs:</strong>
   <%= @food.name %><br>
@@ -8,12 +8,13 @@
   <strong>Posted on:</strong>
   <%= @food.date %><br>
 
-  <strong>Description:</strong>
-  <%= @food.description %><br>
-
   <%= image_tag(@food.image.medium) %>
 
+  <strong>Description:</strong>
+  <%= @food.description %><br>
+<center>
 <%= link_to 'Edit', edit_food_path(@food) %> |
 <%= link_to 'Back', foods_path %>
+</center>
 </div>
 </center>

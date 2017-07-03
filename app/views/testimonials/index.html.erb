@@ -7,7 +7,6 @@
       <strong>Name:</strong> <%= testimonial.name %><br>
       <strong>Title:</strong> <%= testimonial.title %><br>
       <%= image_tag(testimonial.image.medium) %><br>
-      <strong>Comments:</strong> <%= testimonial.comments %><br>
         <center>
         <%= link_to 'Show', testimonial %>
         <%= link_to 'Edit', edit_testimonial_url(testimonial) %>
@@ -16,3 +15,4 @@
     </div>
   </div>
       <% end %>
+<br><br>

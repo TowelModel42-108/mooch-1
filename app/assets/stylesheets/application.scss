@@ -23,9 +23,10 @@
  div.gallery {
      border: 1px solid #ccc;
      width: 33%;
-     height: 400px;
+     height: 430px;
      padding: 15px;
      vertical-align: top;
+     overflow: scroll;
  }
 
  div.gallery:hover {
@@ -47,8 +48,8 @@
   background-color: #5C9F24!important;
 }
 
-body {
-  padding-top: 60px;
+h1, h2, {
+  padding-top: 70px!important;
 }
 
 .about-mooch h3, h5 {
@@ -60,12 +61,10 @@ body {
 }
 
 .about-column {
-  width: 60%;
+  width: 50%;
   height: auto;
   vertical-align: top;
-  border-width: 1px;
-  border-color: #5C9F24!important;
-  border-style: solid;
+  border: 1px solid #ccc;
   padding: 15px;
   display: block;
   margin-left: auto;
@@ -100,7 +99,7 @@ body {
 div.testimonial {
     border: 1px solid #ccc;
     width: 33%;
-    height: 575px;
+    height: 500px;
     padding: 15px;
     vertical-align: top;
 }
@@ -118,4 +117,26 @@ div.testimonial img {
  display: inline-block;
  margin-left: auto;
  margin-right: auto;
+ overflow: scroll;
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.show {
+  height: auto!important;
+  text-align: left;
+  margin-top: 100px;
+}
+
+.about-column h3 {
+  text-align: center;
+}
+
+.about {
+  cursor: pointer;
 }

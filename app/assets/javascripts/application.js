@@ -13,3 +13,34 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+function myFunction() {
+    var x = document.getElementById('what-is-mooch');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function myFunction2() {
+    var y = document.getElementById('why-mooch');
+    if (y.style.display === 'none') {
+        y.style.display = 'block';
+    } else {
+        y.style.display = 'none';
+    }
+}
+
+function myFunction3() {
+    var z = document.getElementById('mooch-users');
+    if (z.style.display === 'none') {
+        z.style.display = 'block';
+    } else {
+        z.style.display = 'none';
+    }
+}
+
+function doOnClick(){
+  document.getElementById('clickMe').value = 'Food is Gone!';
+};

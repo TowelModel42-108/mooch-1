@@ -25,11 +25,11 @@
       <strong>Up for grabs:</strong> <%= food.name %><br>
       <strong>Posted on:</strong> <%= food.date %><br>
       <%= image_tag(food.image.medium) %><br>
-      <strong>Description:</strong> <%= food.description %><br>
         <center>
         <%= link_to 'Show', food %>
         <%= link_to 'Edit', edit_food_path(food) %>
-        <%= link_to 'Delete', food, method: :delete, data: { confirm: 'Are you sure?' } %>
+        <%= link_to 'Delete', food, method: :delete, data: { confirm: 'Are you sure?' } %><br>
+        <input id="clickMe" type="button" value="I ate this!" onClick="doOnClick();" />
       </center>
     </div>
   </div>

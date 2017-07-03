@@ -9,6 +9,12 @@ Rails.application.routes.draw do
 
   get '/', to: redirect('/foods')
 
+  get '/pages/pages/about', to: redirect('/pages/about')
+
+  get '/pages/pages/contact', to: redirect('/pages/contact')
+
+  get '/pages/pages/pages/contact', to: redirect('/pages/contact')
+
 end
 
 
