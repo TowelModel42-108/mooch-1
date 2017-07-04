@@ -14,6 +14,13 @@
  *= require_self
  */
 
+ body {
+   background-image: url('https://www.freeimageslive.co.uk/files/images009/kitchen_fridge.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: top;
+ }
+
  .gallery-parent {
    display: inline;
    margin-left: auto;
@@ -28,6 +35,7 @@
      vertical-align: top;
      overflow: scroll;
      margin: 1px;
+     background-color: white;
  }
 
  div.gallery:hover {
@@ -67,6 +75,7 @@ h1, h2, {
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
+  background-color: white;
 }
 
 .submissions {
@@ -100,6 +109,7 @@ div.testimonial {
     padding: 15px;
     vertical-align: top;
     margin: 1px;
+    background-color: white;
 }
 
 div.testimonial:hover {
@@ -166,11 +176,4 @@ div.testimonial img {
   cursor: pointer;
   background-color: black;
   color: white;
-}
-
-
-body {
-  background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/7.-Leftovers.jpg");
-  width: 100%;
-  height: 100%;
 }
