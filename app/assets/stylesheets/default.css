@@ -1,8 +1,8 @@
 ::-moz-selection {
-  background: #5C9F24;
+  background-color: #5C9F24;
 }
 ::selection {
-  background: #5C9F24;
+  background-color: #5C9F24;
 }
 
 a {
@@ -15,7 +15,7 @@ a:hover {
 
 /* --- button theme --- */
 .btn-theme {
-  background: #5C9F24;
+  background-color: #5C9F24;
   *background-color: #5C9F24;
 }
 
