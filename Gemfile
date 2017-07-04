@@ -59,3 +59,5 @@ gem 'bootstrap'
 
 gem 'mini_magick', '~> 4.7', '>= 4.7.2'
 gem 'carrierwave', '~> 0.10.0'
+
+gem 'yarn'
