@@ -39,3 +39,14 @@
   margin-right: auto;
   width: 17%;
 }
+
+@media only screen and (max-width: 500px) {
+  .contact {
+  margin: 5px;
+  }
+
+  .image-cropper {
+    height: 150px;
+    width: 150px;
+  }
+  }

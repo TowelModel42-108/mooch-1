@@ -17,7 +17,7 @@
 <p id="notice"><%= notice %></p>
 
 
-<h2>⇣Eat Something⇣<%= link_to '  ＋Post Something＋', new_food_path %></h2>
+<h2>⇣Eat Something⇣</h2>
 
   <div class="gallery-parent">
     <% @foods.each do |food| %>
@@ -26,15 +26,18 @@
       <strong>Posted on:</strong> <%= food.date %><br>
       <%= image_tag(food.image.medium) %><br>
         <center>
-        <%= link_to 'Show', food %>
-        <%= link_to 'Edit', edit_food_path(food) %>
-        <%= link_to 'Delete', food, method: :delete, data: { confirm: 'Are you sure?' } %><br>
-        <input class="click-me-buttons" id="food-<%= food.id %>" type="button" value="I ate this!" />
+        <!-- <span class="show-description" onClick="showDescription()">'Show Description </span>| -->
+        <%= link_to 'Show description ', food %>
+        <%= link_to ' Edit ', edit_food_path(food) %>|
+        <%= link_to ' Delete', food, method: :delete, data: { confirm: 'Are you sure?' } %><br>
+        <!-- <div id="hidden-description" style="display: none"><%= food.description %></div> -->
+        <input class="click-me-buttons" id="food-<%= food.id %>" type="button" value="Mark food as eaten" />
       </center>
     </div>
   </div>
     <% end %>
   </tbody>
 </table>
-
+<h2><%= link_to '＋Post Something＋', new_food_path %></h2>
+<br>
 <br>

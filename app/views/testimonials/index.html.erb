@@ -1,6 +1,5 @@
 <p id="notice"><%= notice %></p>
-
-<h2>⇣What People Are Saying⇣<%= link_to '  ＋Say Something＋', new_testimonial_path %></h2>
+<h2><br>⇣What Moochers Are Saying⇣</h2>
 <div class="test-parent">
   <% @testimonials.each do |testimonial| %>
   <div class="testimonial">
@@ -8,11 +7,12 @@
       <strong>Title:</strong> <%= testimonial.title %><br>
       <%= image_tag(testimonial.image.medium) %><br>
         <center>
-        <%= link_to 'Show', testimonial %>
-        <%= link_to 'Edit', edit_testimonial_url(testimonial) %>
-        <%= link_to 'Delete', testimonial, method: :delete, data: { confirm: 'Are you sure?' } %>
+        <%= link_to 'Show comments ', testimonial %>|
+        <%= link_to ' Edit ', edit_testimonial_url(testimonial) %>|
+        <%= link_to ' Delete', testimonial, method: :delete, data: { confirm: 'Are you sure?' } %>
       </center>
     </div>
   </div>
       <% end %>
+      <h2><%= link_to '  ＋Say Something＋', new_testimonial_path %></h2>
 <br><br>

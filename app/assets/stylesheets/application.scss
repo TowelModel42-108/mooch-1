@@ -22,11 +22,12 @@
 
  div.gallery {
      border: 1px solid #ccc;
-     width: 33%;
-     height: 430px;
+     width: 32%;
+     height: 410px;
      padding: 15px;
      vertical-align: top;
      overflow: scroll;
+     margin: 1px;
  }
 
  div.gallery:hover {
@@ -54,10 +55,6 @@ h1, h2, {
 
 .about-mooch h3, h5 {
   text-align: left;
-}
-
-.about-mooch {
-
 }
 
 .about-column {
@@ -98,10 +95,11 @@ h1, h2, {
 
 div.testimonial {
     border: 1px solid #ccc;
-    width: 33%;
-    height: 500px;
+    width: 32%;
+    height: 470px;
     padding: 15px;
     vertical-align: top;
+    margin: 1px;
 }
 
 div.testimonial:hover {
@@ -130,7 +128,6 @@ div.testimonial img {
 .show {
   height: auto!important;
   text-align: left;
-  margin-top: 100px;
 }
 
 .about-column h3 {
@@ -139,4 +136,34 @@ div.testimonial img {
 
 .about {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .gallery-parent, .test-parent {
+  display: block;
+  }
+
+  div.gallery, div.testimonial {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-column {
+  width: 100%;
+  }
+
+  .about-column img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.click-me-buttons {
+  margin-top: 5px;
+}
+
+.show-description:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }

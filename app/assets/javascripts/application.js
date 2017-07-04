@@ -44,9 +44,18 @@ function myFunction3() {
     }
 }
 
+// function showDescription() {
+//     var desc = document.getElementById('hidden-description');
+//     if (desc.style.display === 'none') {
+//         desc.style.display = 'block';
+//     } else {
+//         desc.style.display = 'none';
+//     }
+// }
+
 $(document).ready(function() {
 
  $('.click-me-buttons').on('click', function(){
-    $(this).val('Done');
+    $(this).val('This food has been mooched');
   });
 });
