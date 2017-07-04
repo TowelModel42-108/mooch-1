@@ -35,16 +35,16 @@
 
 <h3>Drop Us a Line</h3>
 
-<div class="contact-form">
-  <%= simple_form_for @contact, :html => {:class => 'form-group' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div>
-      </br>
-      <!-- This button needs to match the theme, but it is in Ruby code???? -->
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
-    </div>
-  <% end %>
-</div>
+  <div class="contact-form" align="center">
+    <%= simple_form_for @contact, :html => {:class => 'form-group' } do |f| %>
+      <%= f.input :name, :required => false %>
+      <%= f.input :email, :required => false %>
+      <%= f.input :message, :as => :text, :required => false %>
+      <div>
+        </br>
+        <!-- This button needs to match the theme, but it is in Ruby code???? -->
+        <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+      </div>
+    <% end %>
+  </div>
 </div>

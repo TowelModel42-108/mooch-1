@@ -141,6 +141,9 @@ input::-moz-focus-inner {
 }
 input {
   line-height: normal;
+  /*width: 300%;
+  align: center;*/
+
 }
 input[type="checkbox"],
 input[type="radio"] {
@@ -172,7 +175,15 @@ legend {
 }
 textarea {
   overflow: auto;
+  /*width: 300%;
+  align: center;*/
 }
+
+.simple_form .form-froup {
+  margin: auto;
+  width: 300%;
+}
+
 optgroup {
   font-weight: bold;
 }
@@ -280,12 +291,19 @@ body {
   background-color: #fff;
 }
 input,
-button,
 select,
 textarea {
   font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+   font-size: inherit;
+   width: 50%;
+   line-height: inherit;
+}
+
+.button{
+  font-family: inherit;
+   font-size: inherit;
+   width: 30%;
+   line-height: inherit;
 }
 a {
   color: #428bca;
