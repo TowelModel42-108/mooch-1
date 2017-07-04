@@ -27,7 +27,7 @@
       <%= image_tag(food.image.medium) %><br>
         <center>
         <!-- <span class="show-description" onClick="showDescription()">'Show Description </span>| -->
-        <%= link_to 'Show description ', food %>
+        <%= link_to 'Show description ', food %>|
         <%= link_to ' Edit ', edit_food_path(food) %>|
         <%= link_to ' Delete', food, method: :delete, data: { confirm: 'Are you sure?' } %><br>
         <!-- <div id="hidden-description" style="display: none"><%= food.description %></div> -->

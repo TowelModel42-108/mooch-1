@@ -957,7 +957,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 	.default {
 	position: fixed;
-	background:##5C9F24;
+	background-color: #5C9F24;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -978,7 +978,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 	.fixed {
 	position: fixed;
-	background:##5C9F24;
+	background-color: #5C9F24;
 	top:0;
 	left: 0;
 	width: 100%;
