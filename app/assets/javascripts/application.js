@@ -12,8 +12,6 @@
 //
 // = require rails-ujs
 // = require turbolinks
-//
-
 // = require jquery
 // = require_tree .
 
@@ -54,9 +52,24 @@ function myFunction3() {
 //     }
 // }
 
-$(document).ready(function() {
-
+$(document).on('turbolinks:load', function() {
  $('.click-me-buttons').on('click', function(){
     $(this).val('This food has been mooched');
   });
+});
+
+$(document).on('turbolinks:load', function(){
+  $('#slippry-slider').slippry(
+  defaults = {
+    transition: 'vertical',
+    useCSS: true,
+    speed: 2000,
+    pause: 500,
+    initSingle: false,
+    auto: true,
+    preload: 'visible',
+    pager: false,
+  }
+
+  )
 });
