@@ -11,28 +11,28 @@
     </div>
   <% end %>
 
- <div class="field">
+ <div class="contact-form">
     <%= form.label :name %>
     <%= form.text_field :name, id: :testimonial_name %>
   </div>
 
- <div class="field">
+ <div class="contact-form">
     <%= form.label :title %>
     <%= form.text_field :title, id: :testimonial_title %>
   </div>
 
- <div class="field">
+ <div class="contact-form">
     <%= form.label :comments %>
     <%= form.text_field :comments, id: :testimonial_comments %>
   </div>
 
 
- <div class="field">
-    add an image....
-    <%= form.file_field :image %>
-  </div>
+ <div class="contact-form">
+    <strong class="contact-form">Add an image
+    <%= form.file_field :image %></strong>
+  </div><br>
 
  <div class="actions">
-    <%= form.submit %>
+    <center><%= form.submit %></center>
   </div>
 <% end %>

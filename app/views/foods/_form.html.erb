@@ -13,25 +13,25 @@
   <% end %>
 
 
- <div class="field">
+ <div class="contact-form">
     <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
 
-  <div class="field">
+  <div class="contact-form">
      <%= f.label :date %>
      <%= f.text_field :date %><br>
   </div>
 
- <div class="field">
+ <div class="contact-form">
     <%= f.label :description %>
     <%= f.text_area :description %>
   </div>
 
- <div class="field">
-  <strong>Add an image</strong>
-  <%= f.file_field :image %>
-  </div>
+ <div class="contact-form">
+  <strong class="contact-form">Add an image
+  <%= f.file_field :image %></strong>
+</div><br>
 
  <div class="actions">
     <center><%= f.submit %></center>
