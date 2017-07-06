@@ -54,7 +54,7 @@ function myFunction3() {
 
 $(document).on('turbolinks:load', function() {
  $('.click-me-buttons').on('click', function(){
-    $(this).val('This food has been mooched');
+    $(this).val('MOOCHED');
   });
 });
 
